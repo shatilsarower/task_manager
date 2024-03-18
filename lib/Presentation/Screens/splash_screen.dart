@@ -18,6 +18,8 @@ class _SplashScreenState extends State<SplashScreen> {
            ),
            Center(
              child: SvgPicture.asset('assets/images/logo.svg',
+               width: 120,
+               fit: BoxFit.scaleDown,
              ),
            ),
          ],
