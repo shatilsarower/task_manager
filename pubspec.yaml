@@ -1,5 +1,5 @@
 name: task_managment
-description: "A new Flutter project."
+description: "Enhance your workflow with a powerful and intuitive task management application built with Flutter. This streamlined solution empowers you to create, organize, and prioritize tasks for maximum efficiency."
 
 publish_to: 'none'
 version: 1.0.0+1
@@ -14,6 +14,7 @@ dependencies:
 
 
   cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -30,7 +31,7 @@ flutter:
 
 
   assets:
-    - assets/images
+    - assets/images/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -45,18 +46,11 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Schyler
+    - family: Roboto
       fonts:
         - asset: assets/fonts/Roboto/RobotoCondensed-Regular.ttf
         - asset: assets/fonts/Roboto/RobotoCondensed-Bold.ttf
         - asset: assets/fonts/Roboto/RobotoCondensed-Italic.ttf
         - asset: assets/fonts/Roboto/RobotoCondensed-Thin.ttf
         - asset: assets/fonts/Roboto/RobotoCondensed-Medium.ttf
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+
